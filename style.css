@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1, h2 {
+    margin: 0.5rem 0;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #cc5200;
+}
+
+/* Introduction Section */
+#intro {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#intro h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Features Section */
+#features {
+    text-align: center;
+}
+
+#features h2 {
+    margin-bottom: 2rem;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Video Section */
+#video {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#video h2 {
+    margin-bottom: 2rem;
+}
+
+#video iframe {
+    width: 80%;
+    height: 450px;
+    border: none;
+}
+
+/* Gallery Section */
+#gallery {
+    text-align: center;
+}
+
+#gallery h2 {
+    margin-bottom: 2rem;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-images img {
+    width: 30%;
+    margin: 0.5rem;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial Section */
+#testimonial {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#testimonial h2 {
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    margin: 2rem auto;
+    width: 60%;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 2rem;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .feature, .gallery-images img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #video iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
