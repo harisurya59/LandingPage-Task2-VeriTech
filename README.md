@@ -29,7 +29,7 @@ Welcome to the Car Launch Event Landing Page repository! This landing page is de
 
 ## Demo
 
-You can view a live demo of the landing page 
+You can view a live demo of the landing page https://harisurya59.github.io/LandingPage-Task2-VeriTech/
 
 ## Contributing
 
